@@ -1,0 +1,22 @@
+I did start reading chapter 1 before I did this exercise. I also have seen Sandi
+Metz's presentations and am familiar with "rush to green". I rushed to green as
+quickly as I could and wound up in a similar place. I don't know every part of
+Ruby, so I have `Array(to..from).reverse` instead of `from.down_to(to)`. I
+didn't use a case statement, probably because `if` seemed less premature on the
+first example that requires a conditional, and I just kept rolling with that
+pattern. Also, squiggly heredocs are nice.
+
+If I had to rationalize how I did it, I would say that lyrics are a cultural
+and artistic phenomenon. This particular song does have an algebra about it,
+but it seems nicest to computerize that simple algebra without trying to
+model all of English inflections. Because even so, "No more" is a construction
+that I'm not sure I would always use outside of this song. I might say "no"
+or "zero". In other words, I wouldn't really be modeling anything outside the
+scope of these lyrics. As long as I'm not doing that, treating the lyrics as
+non-mathematical feels respectful to the song's author.
+
+I have a broader "so what" feeling about this exercise. It might tell you
+something about how to solve a nice tidy problem, but solving nice tidy
+problems does not really describe my programming life these days. I spend
+vastly more time trying to understand requirements and form them into tidy
+problems to be solved.
