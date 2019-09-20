@@ -1,5 +1,9 @@
 class Bottles
 
+  def song
+    verses(99, 0)
+  end
+
   def verses(from, to)
     Array(to..from).reverse.map { |n| verse(n) }.join("\n")
   end
