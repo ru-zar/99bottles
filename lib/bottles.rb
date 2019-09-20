@@ -1,4 +1,7 @@
 class Bottles
+  def verses(from, to)
+    Array(to..from).reverse.map { |n| self.verse(n) }.join("\n")
+  end
   def verse(n)
     if(n == 99)
       <<~LYRIC
